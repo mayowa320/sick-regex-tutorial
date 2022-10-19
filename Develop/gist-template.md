@@ -87,7 +87,11 @@ A backet expression will match a specific set of single characters and has the p
 
 ### Greedy and Lazy Match
 
+In a greedy match, the regex engine attempts to match the pattern at a given position in the string. If there is no match present, it moves on to the next position. Lazy match work in the opposite manner by repeating the fewest number of times.
+
 ### Boundaries
+
+\b allows one to perform a search of only whole words which are placed between the boundary. This is a type of anchor.
 
 ### Back-references
 
