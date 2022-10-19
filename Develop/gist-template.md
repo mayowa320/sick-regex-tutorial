@@ -71,11 +71,19 @@ For instance, [0-9] will match:
 
 ### Character Classes
 
+With character classes, the regex engine will only match with one of several different character. These are useed commonly.
+
 ### Flags
+
+JS only has 6 different flags (i, g, m, s, u, and y). These are ways to specify what type of matches a search will yield.
 
 ### Grouping and Capturing
 
+Capturing groups are placed within parentheses() and are used as a way to treat groups of characters as one single character.
+
 ### Bracket Expressions
+
+A backet expression will match a specific set of single characters and has the possibility of matching multi character elements depending on what is contained in the expression.
 
 ### Greedy and Lazy Match
 
