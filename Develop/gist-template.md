@@ -95,8 +95,13 @@ In a greedy match, the regex engine attempts to match the pattern at a given pos
 
 ### Back-references
 
+These match the same text that was previously matched by a capturing group. The same backreference may be used by multiple times.
+
 ### Look-ahead and Look-behind
+
+These are known as lookaround and are used when we only need to locate matches for a pattern which are either followed or preceeded by another pattern.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+May is currently a GT bootcamp student.
+Github: https://github.com/mayowa320
